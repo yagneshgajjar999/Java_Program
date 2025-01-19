@@ -14,16 +14,16 @@ class Loginpage
 				{
 					if(password.equals(password1))
 					{
-						System.out.println("LOGIIN SUCCESSFUL");
+						System.out.println("LOGIIN SUCCESSFUL.");
 					}
 					else
 					{
-						System.out.println("INVALID PASSWORD");
+						System.out.println("INVALID PASSWORD.");
 					}
 				}
 			else
 				{
-					System.out.println("INVALID USERNAME");
+					System.out.println("INVALID USERNAME.");
 				}		
 	}
 }
