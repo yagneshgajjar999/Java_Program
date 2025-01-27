@@ -43,7 +43,7 @@ class Employe extends Manager
 		System.out.println("Age:" + g);
 		System.out.println("Salary:" + s);.
 		System.out.println("Employe's information is as below:");
-		System.out.println("Name:" + b);
+		System.out.println("Name: " + b);
 		System.out.println("Age:" + h);
 		System.out.println("Salary:" + t);
 	}

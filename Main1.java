@@ -1,12 +1,14 @@
 import java.util.Scanner;
 class input
 {
+	
 	int a = 10;
 	int b = 20;
 	int c = 30;
+	
 	void gate()
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter your Number a:");
 		a=sc.nextInt();
 		System.out.println("Enter your Number b:");
@@ -40,8 +42,6 @@ class Main1
 {
 	public static void main(String ar[])
 	{
-		input i=new input();
-		i.gate();
 		addition a=new addition();
 		a.add();
 		subtraction s=new subtraction();
