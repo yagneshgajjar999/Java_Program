@@ -29,7 +29,6 @@ public class Def2_Server
         } 
         catch (IOException e) 
         {
-            // TODO: handle exception
             e.printStackTrace();
         }
     }
